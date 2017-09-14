@@ -41,10 +41,10 @@ public class CursorSearchAdapter extends CursorAdapter {
         vh.tv_content.setText(text);
 
         if (isHistory) {
-            vh.iv_icon.setImageResource(R.drawable.ic_history_white);
+            vh.iv_icon.setImageResource(R.drawable.ic_history_grey);
         }
         else {
-            vh.iv_icon.setImageResource(R.drawable.ic_action_search_white);
+            vh.iv_icon.setImageResource(R.drawable.ic_action_search_grey);
         }
     }
 
